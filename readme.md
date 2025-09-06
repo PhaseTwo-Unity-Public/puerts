@@ -1,6 +1,10 @@
+
 # Puerts WebGL Unity
 ![puerts_webgl](https://img.shields.io/badge/release-v1.0.0-blue.svg)
 ![minigame](https://img.shields.io/badge/-minigame-grey.svg?logo=wechat)
+
+## Note:
+This is a patched version of puerts that fixes [this bug](https://github.com/Tencent/puerts/issues/2179) in WebGL Puerts, all other code is left the same, and all copyright belongs to Tencent.
 
 ## introduction | 简介
 

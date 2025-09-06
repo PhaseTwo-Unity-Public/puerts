@@ -1,15 +1,15 @@
 {
     "name": "com.phasetwo.puertsfix.webgl",
-    "displayName": "Puerts WebGL Support",
+    "displayName": "Modified Puerts WebGL Support to support Unity 6.2",
     "version": "2.2.2",
-    "description": "Use PuerTS in WebGL mode. Javascript code will run in browser's JS environment and get speed up by JIT.",
+    "description": "Use PuerTS in WebGL mode. Javascript code will run in browser's JS environment and get speed up by JIT. Fixed for Unity 6.2",
     "keywords": [
         "Script"
     ],
     "author": {
-        "name": "Tencent Puerts Group",
-        "email": "johnche@tencent.com",
-        "url": "https://github.com/puerts"
+        "name": "Phase Two Developers",
+        "email": "git@phasetwo.gg",
+        "url": "https://github.com/PhaseTwo-Unity-Public/"
     },
     "category": "Libraries",
     "dependencies": {
