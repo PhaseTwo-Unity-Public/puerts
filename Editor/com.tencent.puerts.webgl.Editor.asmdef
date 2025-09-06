@@ -1,8 +1,8 @@
 {
-    "name": "com.tencent.puerts.webgl.Editor",
+    "name": "com.phasetwo.puertsfix.webgl.Editor",
     "rootNamespace": "",
     "references": [
-        "com.tencent.puerts.webgl"
+        "com.phasetwo.puertsfix.webgl"
     ],
     "includePlatforms": [
         "Editor"

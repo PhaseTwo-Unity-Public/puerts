@@ -111,7 +111,7 @@ public class PuertsWebglBuildProcessing : IPreprocessBuildWithReport, IPostproce
 
         if (!Directory.Exists(output)) Directory.CreateDirectory(output);
 
-        File.Copy(Path.GetFullPath("Packages/com.tencent.puerts.webgl/Javascripts~/PuertsDLLMock/dist/puerts-runtime.js"), Path.Join(output, "puerts-runtime.js"), true);
+        File.Copy(Path.GetFullPath("Packages/com.phasetwo.puertsfix.webgl/Javascripts~/PuertsDLLMock/dist/puerts-runtime.js"), Path.Join(output, "puerts-runtime.js"), true);
 
         List<string> resourcesPattens = new List<string>
         {
@@ -133,7 +133,7 @@ public class PuertsWebglBuildProcessing : IPreprocessBuildWithReport, IPostproce
 
         // Build node command
         var command = currentTarget == "Browser" ? "buildForBrowser" : "buildForMinigame";
-        var args = Path.GetFullPath("Packages/com.tencent.puerts.webgl/Cli/Javascripts~/index.js") + " " + command + " -p " + string.Join(" ", resourcesPattens.ConvertAll(p => 
+        var args = Path.GetFullPath("Packages/com.phasetwo.puertsfix.webgl/Cli/Javascripts~/index.js") + " " + command + " -p " + string.Join(" ", resourcesPattens.ConvertAll(p => 
             "\"" + p.Replace("\\", "/") + "\"")) + " -o \"" + output + "\"";
         var executeFileName = "node";
 

@@ -61,7 +61,7 @@ use demo project to know puerts-webgl ｜ 利用demo项目了解PuerTS-WebGL
     <details>
     <summary>Add from OpenUPM | available in 2018+</summary>
 
-    你可按照[OpenUPM](https://openupm.com/)所支持的方式安装该包：https://openupm.com/packages/com.tencent.puerts.webgl/
+    你可按照[OpenUPM](https://openupm.com/)所支持的方式安装该包：https://openupm.com/packages/com.phasetwo.puertsfix.webgl/
 
     </details>
 

@@ -1,5 +1,5 @@
 {
-    "name": "com.tencent.puerts.webgl",
+    "name": "com.phasetwo.puertsfix.webgl",
     "rootNamespace": "",
     "references": [
         "com.tencent.puerts.core"
